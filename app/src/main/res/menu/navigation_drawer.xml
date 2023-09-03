@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:checked="true"
+            android:icon="@android:drawable/btn_star_big_off"
+            android:title="item 1" />
+        <item
+            android:id="@+id/item2"
+            android:icon="@android:drawable/btn_star_big_off"
+            android:title="item 2" />
+        <item
+            android:id="@+id/item3"
+            android:icon="@android:drawable/btn_star_big_off"
+            android:title="item 3" />
+    </group>
+-->
+
+    <group
+        android:id="@+id/themegroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/Themeitem"
+            android:title="Themes">
+            <menu>
+                <item
+                    android:id="@+id/LightTheme"
+                    android:icon="@drawable/sun"
+                    android:title="Light Theme" />
+
+                <item
+                    android:id="@+id/DarkTheme"
+                    android:icon="@drawable/moon"
+                    android:title="Dark Theme" />
+
+            </menu>
+        </item>
+    </group>
+
+</menu>
